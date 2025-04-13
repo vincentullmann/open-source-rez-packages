@@ -25,6 +25,7 @@ pybind11-*/
 *.gz*
 *.tgz*
 *.zip*
+*.tar.bz2
 */0.8.*/USD-0.8.*/
 /AL_USDMaya/*/AL_USDMaya*/
 /glew/*/glew*/

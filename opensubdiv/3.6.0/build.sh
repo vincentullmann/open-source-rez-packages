@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=opensubdiv
 export PACKAGE_VERSION=3.6.0
 export MAKE_THREADS=28

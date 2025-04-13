@@ -1,6 +1,7 @@
 #! /bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=openssl
 export PACKAGE_VERSION=1.1.1
 export MAKE_THREADS=28

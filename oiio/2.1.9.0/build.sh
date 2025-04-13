@@ -1,6 +1,7 @@
 #! /bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=oiio
 export PACKAGE_VERSION=2.1.9.0
 export MAKE_THREADS=28

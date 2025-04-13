@@ -5,7 +5,8 @@ rm OpenImageIO-Release-1.8.5/CMakeLists.txt
 cp patch/CMakeLists_root.txt OpenImageIO-Release-1.8.5/CMakeLists.txt
 rm OpenImageIO-Release-1.8.5/src/dicom.imageio/dicominput.cpp
 cp patch/dicominput.cpp OpenImageIO-Release-1.8.5/src/dicom.imageio/
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=oiio
 export PACKAGE_VERSION=1.8.5.6
 export MAKE_THREADS=28

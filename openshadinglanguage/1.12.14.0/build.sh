@@ -1,6 +1,7 @@
 #! /bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=openshadinglanguage
 export PACKAGE_VERSION=1.12.14.1
 export MAKE_THREADS=28

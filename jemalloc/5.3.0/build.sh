@@ -2,7 +2,8 @@
 
 source version.sh
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 #export PACKAGE_INSTALLATION_ROOT=~/packages
 export PACKAGE_NAME=jemalloc
 export PACKAGE_VERSION=$VERSION

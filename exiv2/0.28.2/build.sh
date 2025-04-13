@@ -1,6 +1,7 @@
 #! /bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=exiv2
 export PACKAGE_VERSION=0.28.2
 export MAKE_THREADS=28

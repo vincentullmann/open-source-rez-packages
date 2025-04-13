@@ -1,7 +1,8 @@
 #! /bin/bash
 
 tar -xvf v2.4.1.tar.gz
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=pyilmbase
 export PACKAGE_VERSION=2.4.1
 export MAKE_THREADS=28

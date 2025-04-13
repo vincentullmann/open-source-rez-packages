@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+
 export PACKAGE_NAME=ptex
 export PACKAGE_VERSION=2.4.2.1
 export MAKE_THREADS=28

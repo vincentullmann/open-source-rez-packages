@@ -1,6 +1,7 @@
 #! /bin/bash
 
-export PACKAGE_INSTALLATION_ROOT=/mnt/ala/software/ext_packages/
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-/mnt/ala/software/ext_packages}
+/
 export PACKAGE_NAME=openexr
 export PACKAGE_VERSION=3.1.11
 export PACKAGE_VARIANT=platform-linux/arch-x86_64

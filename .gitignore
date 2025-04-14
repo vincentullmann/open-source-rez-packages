@@ -9,10 +9,11 @@
 
 # generic folders
 build/
+/_debug/
 .idea/
 
 
-# Extracted source dirs
+# unzipped source dirs
 */0.8.*/USD-0.8.*/
 /AL_USDMaya/*/AL_USDMaya*/
 /alembic/*/alembic-*/
@@ -31,6 +32,7 @@ MaterialX-*/
 nuke-ML-server-*/
 oiio-Release-*/
 openexr-*/
+openssl/*/openssl-*/
 OpenSubdiv-*/
 pstl2019_20191006oss/
 ptex-*/
@@ -41,3 +43,21 @@ tbb20*/
 Tools-*/
 USD-*/
 USDForUnity-USD-*
+
+
+# USD has some additional files to ignore
+# this list is based on the clean.sh
+# Todo: maybe we should change the setup-script to unpack into a subfolder
+/usd/*/OpenUSD-*/
+/usd/*/build/
+/usd/*/docs/
+/usd/*/build_scripts/
+/usd/*/cmake/
+/usd/*/extras/
+/usd/*/pxr/
+/usd/*/third_party/
+/usd/*/*.txt
+/usd/*/*.yml
+/usd/*/*.md
+/usd/*/*.out
+/usd/*/*.pdf

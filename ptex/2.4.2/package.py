@@ -12,3 +12,5 @@ def commands():
     appendenv('LD_LIBRARY_PATH', '{root}/lib')
     setenv('PTEX_LOCATION', '{root}')
 
+    env.PTEX_INCLUDE_DIR = '{root}/include'
+

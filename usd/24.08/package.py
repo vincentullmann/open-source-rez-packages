@@ -5,10 +5,10 @@ name = 'usd'
 version = '24.08.0'
 
 requires = [
-    'opensubdiv-3.5',
+    'opensubdiv-3.6',
     #'ilmbase-3.1',
-    'jinja-3',
-    'jemalloc-4',
+    'Jinja2',
+    'jemalloc-5',
     'openexr-3.1',
     #'pyilmbase-3.1',
     'materialx',

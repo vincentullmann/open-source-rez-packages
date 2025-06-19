@@ -7,17 +7,16 @@ version = '1.12.14.1'
 private_build_requires = ['cmake-3', 'devtoolset-9+']
 
 requires = [
-            'oiio-2.4',
-	    'llvm',
-	    'boost-1.82',
-	    'openexr-3.2',
-	    'Imath',
-	    'python-3.11',
-	    'flex',
-	    'bison',
-	    'pugixml',
-            'os-RedHatEnterprise-8+'
-            ]
+    'oiio-2.5',
+    'llvm',
+    'boost-1.85',
+    'openexr-3.2',
+    'Imath',
+    'python-3.11',
+    'flex',
+    'bison',
+    'pugixml',
+]
 
 #variants = [['platform-linux', 'arch-x86_64']]
 

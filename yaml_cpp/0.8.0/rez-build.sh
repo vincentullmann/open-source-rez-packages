@@ -3,7 +3,7 @@
 source version.sh
 
 # this will build and install the rez package locally (default is ~/packages)
-export PACKAGE_INSTALLATION_ROOT=~/packages #/mnt/ala/software/ext_packages
+export PACKAGE_INSTALLATION_ROOT=${PACKAGE_INSTALLATION_ROOT:-~/packages}
 export PACKAGE_NAME=yaml_cpp
 export PACKAGE_VERSION=$VERSION
 export MAKE_THREADS=28

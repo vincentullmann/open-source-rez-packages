@@ -17,11 +17,16 @@ build/
 */0.8.*/USD-0.8.*/
 /AL_USDMaya/*/AL_USDMaya*/
 /alembic/*/alembic-*/
+/bison/*/bison-*/
 /boost/*/boost_*/
+/flex/*/flex-*/
 /glew/*/glew*/
+/pugixml/*/pugixml-*/
 /Imath/*/Imath-*/
 /llvm/*/llvm-project/
 /openshadinglanguage/*/OpenShadingLanguage-*/
+/openvdb/*/openvdb-*/
+/oiio/*/OpenImageIO-*/
 cppzmq-*/
 FFmpeg-n*/
 googletest-release-*/
@@ -39,10 +44,12 @@ ptex-*/
 pybind11-*/
 pyilmbase-*/
 PySide-*/
+tbb/*/oneapi-tbb-*/
 tbb20*/
 Tools-*/
 USD-*/
 USDForUnity-USD-*
+/yaml_cpp/*/yaml-cpp-*/
 
 
 # USD has some additional files to ignore

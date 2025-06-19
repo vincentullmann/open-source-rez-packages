@@ -5,11 +5,17 @@ name = 'ocio'
 version = '2.3.2.0'
 
 private_build_requires = [ 
-    'cmake-3.16',
+    'cmake-3.16+',
     'devtoolset-11'
 ]
 
-requires = ['openexr-3.2','Imath','python-3.11', 'pybind11']
+requires = [
+    'Imath',
+    'openexr-3.2',
+    'pybind11',
+    'python-3.11',
+    "yaml_cpp",
+]
 
 def commands():
     env.LD_LIBRARY_PATH.append("{this.root}/lib64")
